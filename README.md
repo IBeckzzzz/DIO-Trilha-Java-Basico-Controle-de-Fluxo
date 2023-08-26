@@ -1,18 +1,42 @@
-## Getting Started
+# Contador Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um programa Java simples que permite a contagem sequencial de números entre dois parâmetros fornecidos pelo usuário.
 
-## Folder Structure
+## Como Usar
 
-The workspace contains two folders by default, where:
+1. Certifique-se de ter o Java instalado em sua máquina.
+2. Baixe o código-fonte ou clone o repositório.
+3. Abra o terminal e navegue até o diretório onde o código está localizado.
+4. Compile o código usando o comando: `javac Contador.java`
+5. Execute o programa usando o comando: `java Contador`
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+O programa solicitará que você insira dois parâmetros. Ele então realizará uma contagem sequencial de números entre esses dois parâmetros, garantindo que o segundo parâmetro seja maior que o primeiro. Caso contrário, uma exceção será lançada e uma mensagem de erro será exibida.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Você pode executar o programa repetidamente para fazer várias contagens ou sair a qualquer momento digitando "sair" quando solicitado o primeiro parâmetro.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Exemplo
 
-## Dependency Management
+Digite o primeiro parâmetro (ou digite 'sair' para encerrar)
+5
+Digite o segundo parâmetro
+10
+5
+6
+7
+8
+9
+10
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+## Personalização
+
+Você pode modificar o código para adicionar novos recursos, aprimorar a interface do usuário ou implementar outras funcionalidades que desejar.
+
+## Requisitos
+
+- Java instalado
+- Compilador Java (geralmente incluído com a instalação do Java)
+
+## Autor
+
+Thiago Beck de Andrade
